@@ -6,10 +6,37 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Web site</title>
     <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
 
     <!-- google font-->
 </head>
 <body>
-
+    <header>
+        <nav>
+            <div class="container">
+                <div class="header-main-div-class">
+                    <a class="h4-class-header" href="#"><h4>EGATOR</h4></a>
+                    <ul class="ul-class" id="ul-id">
+                        <div class="nav-class" id="nav-id">
+                            <li id="li-id-header"><a href="#">Home</a></li>
+                            <li id="li-id-header"><a href="#">About</a></li>
+                            <li id="li-id-header"><a href="#">Courses</a></li>
+                            <li id="li-id-header"><a href="#">Contact</a></li>
+                        </div>
+                       
+                        <div class="button-toggle-header">
+                            <button onclick="barFunction()"id="bar-btn" class="btn-bar-class"><i class="fa-solid fa-bars"></i></button>
+                            <button onclick="closeBarFunction()" id="close-bar-btn"class="btn-bar-class-close"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                       
+                    </ul>
+                   
+                </div>
+    
+            </div>
+        </nav>
+        
+    </header>
+    <script src="app.js"></script>
 </body>
 </html>
