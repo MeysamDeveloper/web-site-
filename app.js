@@ -17,4 +17,6 @@ function closeBarFunction() {
     close_Bar_Btn.classList.remove('btn-bar-class-close2')
     barClick.classList.remove('btn-bar-class2')
 }
-
+window.addEventListener('scroll', () =>{
+    document.querySelector('nav').classList.toggle('windows-scroll', window.scrollY > 0)
+})
