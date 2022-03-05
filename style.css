@@ -87,7 +87,7 @@ button:hover{
     display: none;
 }
 
-/* header part 2...........................*/
+/* header part 2...............................................................................*/
 .header-part-2{
     padding-top: 210px;
     color: white;
@@ -117,7 +117,7 @@ button:hover{
     text-align: center;
 }
 
-/* section 1 left...........................*/
+/* section 1 left...........................................................................*/
 
 .section-2{
     background: #2C3162;
@@ -148,7 +148,7 @@ button:hover{
  .section-left a:active{
     background: rgb(143, 142, 142);
  }
-/* section 1 right...........................*/
+/* section 1 right............................................................................*/
 .section-right{
     color: white;
     margin-top: 90px;
@@ -180,7 +180,7 @@ button:hover{
 }
 
 
-/* section 2 ...........................*/
+/* section 2 ...............................................................................*/
 .section-3{
     background: #262C4E;
     height: 800px;
@@ -265,4 +265,94 @@ button:hover{
 }
 
 
-/* section 3 ...........................*/
+/* section 3 ....................................................................................*/
+.section-4{
+    background: #1D243E;
+    height: 850px;
+    color: white;
+}
+.discrabe-main{
+    padding-top: 66px;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 1rem;
+   
+
+
+}
+.discreabe button{
+    padding: 16px;
+    display: block;
+    background-color: transparent;
+    border: none;
+    color: white;
+}
+.discreabe{
+    background-color: #6C61F0;
+    padding: 16px;
+    
+}
+.discreabe p{
+    padding: 16px;
+    font-size: 16px;
+    display: none;
+
+}
+
+.discreabe i{
+    padding-right: 16px;
+}
+
+#negative-id{
+    display: none;
+}
+.discreabe2 p{
+    padding: 16px;
+    font-size: 16px;
+    display: block;
+}
+.discreabe2 #negative-id{
+    
+    display: block;
+}
+.discreabe2 #positeve-id{
+    
+    display: none;
+}
+
+/* section 4 ................................................................................*/
+.section-5{
+    background: #262C4E;
+    height: 800px;
+    padding-top: 94px;
+}
+.image-slider{
+    background-color: white;
+    width: 64px;
+    height: 64px;
+    border-radius: 50%;
+    margin: auto;
+    margin-bottom: 12px;
+    border:4px solid #6C61F0;
+}
+.image-slider img{
+   width: 100%;
+   height: auto;
+}
+.slider{
+    color: white;
+    text-align: center;
+    padding: 24px;
+}
+.slider p{
+    color: white;
+    text-align: center;
+    background-color: #6C61F0;
+    padding: 24px;
+    margin-top: 16px;
+}
+.slider h4{
+    color: rgb(214, 214, 214);
+    margin-top: 16px;
+
+}

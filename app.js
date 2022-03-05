@@ -20,3 +20,13 @@ function closeBarFunction() {
 window.addEventListener('scroll', () =>{
     document.querySelector('nav').classList.toggle('windows-scroll', window.scrollY > 0)
 })
+//............................................................
+
+var discreabe_btn = document.querySelectorAll('#positive-id-select')
+discreabe_btn.forEach(dis => {
+    dis.addEventListener('click', () => {
+        var parent = dis.parentElement
+        parent.classList.toggle('discreabe2');
+    })
+})
+//............................................................
