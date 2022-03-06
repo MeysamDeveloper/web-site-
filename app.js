@@ -17,6 +17,7 @@ function closeBarFunction() {
     close_Bar_Btn.classList.remove('btn-bar-class-close2')
     barClick.classList.remove('btn-bar-class2')
 }
+//..............................................................
 window.addEventListener('scroll', () =>{
     document.querySelector('nav').classList.toggle('windows-scroll', window.scrollY > 0)
 })
@@ -30,3 +31,31 @@ discreabe_btn.forEach(dis => {
     })
 })
 //............................................................
+var number_slider = 0;
+function left() {
+    var curent_slide = document.getElementById(`slider-${number_slider}`)
+    curent_slide.classList.add('disable')
+    if(number_slider == 3){
+        number_slider = 0;
+    }else{
+        number_slider ++;
+    }
+    var curent_slide = document.getElementById(`slider-${number_slider}`)
+    curent_slide.classList.remove('disable')
+    curent_slide.classList.add('active')
+
+    
+}
+function right() {
+    var curent_slide = document.getElementById(`slider-${number_slider}`)
+    curent_slide.classList.add('disable')
+    if(number_slider == 0){
+        number_slider = 3;
+    }else{
+        number_slider --;
+    }
+    var curent_slide = document.getElementById(`slider-${number_slider}`)
+    curent_slide.classList.remove('disable')
+    curent_slide.classList.add('active')    
+}
+//......................................................................................

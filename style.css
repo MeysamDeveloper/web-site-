@@ -323,8 +323,35 @@ button:hover{
 /* section 4 ................................................................................*/
 .section-5{
     background: #262C4E;
-    height: 800px;
+    height: 600px;
     padding-top: 94px;
+}
+.slider-main{
+    width: 70%;
+    margin: auto;
+    padding-bottom: 26px;
+}
+.angle-arrow{
+    
+    
+}
+.angle-arrow #left{
+    background: transparent;
+   font-size: 36px;
+   padding: 8px;
+   color: white;
+   margin-left: 50px;
+   border: 2px solid white;
+}
+.angle-arrow #right{
+
+    background: transparent;
+   font-size: 36px;
+   margin-right: 50px;
+   border: 2px solid white;
+   padding: 8px;
+   color: white;
+   float: right;
 }
 .image-slider{
     background-color: white;
@@ -354,5 +381,92 @@ button:hover{
 .slider h4{
     color: rgb(214, 214, 214);
     margin-top: 16px;
+
+}
+#h2-id-slider{
+    color: white;
+    text-align: center;
+    margin-bottom: 26px;
+}
+.active{
+ display: block;
+}
+.disable{
+display: none;
+}
+/* section 5 ................................................................................*/
+footer{
+    background: #2C3162;
+    height: 340px;
+}
+.main-footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    padding-top: 40px;
+}
+.main-footer h3{
+    color: white;
+    margin: 16px 0px 16px 0px;
+}
+.main-footer a{
+    color: rgb(230, 230, 230);
+    line-height: 22px;
+    width: 75%;
+    display: block;
+
+}
+.main-footer a:hover{
+    opacity: 70%;
+
+}
+.main-footer p{
+    color: rgb(230, 230, 230);
+    line-height: 22px;
+    width: 75%;
+}
+
+@media only screen and (max-width: 850px){
+    .header-part-2{
+        display: block;
+    }
+    header{
+        height: 900px;
+    }
+    .section-r-l{
+        display: block;
+    }
+    .section-2{
+        height: 800px;
+    }
+    .section-right{
+        color: white;
+        margin-top: 30px;
+    }
+    .card{
+        display: flex;
+        justify-content: center;
+    }
+    .card-3{ 
+        display: block;
+        width: 320px;
+        margin: auto;
+    }
+    .section-3{
+        background: #262C4E;
+        height: 1800px;
+    }
+    .section-4{
+        background: #1D243E;
+        height: 950px;
+        color: white;
+    }
+    .main-footer{
+        display: block;
+       
+    }
+    footer{
+        background: #2C3162;
+        height: 690px;
+    }
 
 }
