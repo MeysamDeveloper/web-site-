@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web site</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- google font.............................................................................-->
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="container">
+                <div class="header-main-div-class">
+                    <a class="h4-class-header" href="#"><h4>EGATOR</h4></a>
+                    <ul class="ul-class" id="ul-id">
+                        <div class="nav-class" id="nav-id">
+                            <li id="li-id-header"><a href="#">Home</a></li>
+                            <li id="li-id-header"><a href="About.html">About</a></li>
+                            <li id="li-id-header"><a href="#">Courses</a></li>
+                            <li id="li-id-header"><a href="#">Contact</a></li>
+                        </div>
+                       
+                        <div class="button-toggle-header">
+                            <button onclick="barFunction()"id="bar-btn" class="btn-bar-class"><i class="fa-solid fa-bars"></i></button>
+                            <button onclick="closeBarFunction()" id="close-bar-btn"class="btn-bar-class-close"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="container header-part-2">
+            <div class="header-left">
+                <h2>Grow your skills to advantage your career path</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Dolorum voluptatibus quod ipsam amet tempore, exercitationem atque, repellat est quos maiores enim sint. Iusto error sapiente itaque ex facere officiis eos.</p>
+                <h4><a style="color: white;" href="">Get started</a></h4>
+            </div>
+            <div class="header-right">
+               <img src="image.png" alt="not display" width="400px" height="400">
+            </div>
+
+        </div>
+    </header>
+    <section class="section-2">
+        <div class="container section-r-l">
+            <div class="section-left">
+                <h2>Categories</h2>
+                <p>Repellat voluptatem omnis animi atque molestias excepturi sunt fugiat, nulla necessitatibus nihil porro laboriosam reiciendis voluptate facere.</p>
+                <a href="#">Learn More</a>
+            </div>
+
+
+
+            <div class="section-right">
+                <div class="card">
+                    <div class="card-iner">
+                        <h5 ><i class="fa-solid fa-chess-rook"></i></h5>
+                        <h3>blockchain</h3>
+                        <p> minima blanditiis repellat animi totam illo quae?</p>
+                    </div>
+                    <div class="card-iner">
+                        <h5 ><i class="fa-solid fa-chess-rook"></i></h5>
+                        <h3>blockchain</h3>
+                        <p> minima blanditiis repellat animi totam illo quae?</p>
+                    </div>
+                    <div class="card-iner">
+                        <h5 ><i class="fa-solid fa-chess-rook"></i></h5>
+                        <h3>blockchain</h3>
+                        <p> minima blanditiis repellat animi totam illo quae?</p>
+                    </div>
+                    
+                </div>
+                <div class="card">
+                    <div class="card-iner">
+                        <h5 ><i class="fa-solid fa-chess-rook"></i></h5>
+                        <h3>blockchain</h3>
+                        <p> minima blanditiis repellat animi totam illo quae?</p>
+                    </div>
+                    <div class="card-iner">
+                        <h5 ><i class="fa-solid fa-chess-rook"></i></h5>
+                        <h3>blockchain</h3>
+                        <p> minima blanditiis repellat animi totam illo quae?</p>
+                    </div>
+                    <div class="card-iner">
+                        <h5 ><i class="fa-solid fa-chess-rook"></i></h5>
+                        <h3>blockchain</h3>
+                        <p> minima blanditiis repellat animi totam illo quae?</p>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+       
+    </section>
+
+    <!-- section 2....................................................................................-->
+
+    <section class="section-3">
+        <div class="container">
+            <h2 id="h2-id">Our Popular Courses</h2>
+
+            <div class="card-3">
+
+                <div class="image-card">
+                    <img src="a4.jpg" alt="not display">
+                    <h3>quibusdam sed labore, harum magnam?</h3>
+                    <p>voluptates perspiciatis esse quaerat voluptate, consectetur unde, magni labore voluptas odit quisquam.</p>
+                    <button><a href="#"></a>Learn More</button>
+                </div>
+                <div class="image-card">
+                    <img src="a4.jpg" alt="not display">
+                    <h3>quibusdam sed labore, harum magnam?</h3>
+                    <p>voluptates perspiciatis esse quaerat voluptate, consectetur unde, magni labore voluptas odit quisquam.</p>
+                    <button><a href="#"></a>Learn More</button>
+                </div>
+                <div class="image-card">
+                    <img src="a4.jpg" alt="not display">
+                    <h3>quibusdam sed labore, harum magnam?</h3>
+                    <p>voluptates perspiciatis esse quaerat voluptate, consectetur unde, magni labore voluptas odit quisquam.</p>
+                    <button><a href="#"></a>Learn More</button>
+                </div>
+            </div>
+            
+
+        </div>
+    </section>
+
+    <!-- section 3.....................................................................................-->
+
+    <section class="section-4">
+        <div class="container">
+            <h2 id="h2-id">Frequency Asked Question</h2>
+            <div class="discrabe-main">
+                <div class="discreabe">
+                    <i id="positeve-id" style="float: left;" class="fa-solid fa-plus"></i>
+                    <i id="negative-id" style="float: left;"  class="fa-solid fa-minus"></i>
+                    <button class="btn-positive" id="positive-id-select">How do i know the right cources for me?</button>
+                    <p>quisquam iste reiciendis quaerat optio ullam modi ipsa totam necessitatibus itaque rerum assumenda, vel hic nam facere!</p>
+                </div>
+                <div class="discreabe">
+                    <i id="positeve-id" style="float: left;" class="fa-solid fa-plus"></i>
+                    <i id="negative-id" style="float: left;"  class="fa-solid fa-minus"></i>
+                    <button class="btn-positive" id="positive-id-select">How do i know the right cources for me?</button>
+                    <p>quisquam iste reiciendis quaerat optio ullam modi ipsa totam necessitatibus itaque rerum assumenda, vel hic nam facere!</p>
+                </div>
+                <div class="discreabe">
+                    <i id="positeve-id" style="float: left;" class="fa-solid fa-plus"></i>
+                    <i id="negative-id" style="float: left;"  class="fa-solid fa-minus"></i>
+                    <button class="btn-positive" id="positive-id-select">How do i know the right cources for me?</button>
+                    <p>quisquam iste reiciendis quaerat optio ullam modi ipsa totam necessitatibus itaque rerum assumenda, vel hic nam facere!</p>
+                </div>
+                <div class="discreabe">
+                    <i id="positeve-id" style="float: left;" class="fa-solid fa-plus"></i>
+                    <i id="negative-id" style="float: left;"  class="fa-solid fa-minus"></i>
+                    <button class="btn-positive" id="positive-id-select">How do i know the right cources for me?</button>
+                    <p>quisquam iste reiciendis quaerat optio ullam modi ipsa totam necessitatibus itaque rerum assumenda, vel hic nam facere!</p>
+                </div>
+                <div class="discreabe">
+                    <i id="positeve-id" style="float: left;" class="fa-solid fa-plus"></i>
+                    <i id="negative-id" style="float: left;"  class="fa-solid fa-minus"></i>
+                    <button class="btn-positive" id="positive-id-select">How do i know the right cources for me?</button>
+                    <p>quisquam iste reiciendis quaerat optio ullam modi ipsa totam necessitatibus itaque rerum assumenda, vel hic nam facere!</p>
+                </div>
+                <div class="discreabe">
+                    <i id="positeve-id" style="float: left;" class="fa-solid fa-plus"></i>
+                    <i id="negative-id" style="float: left;"  class="fa-solid fa-minus"></i>
+                    <button class="btn-positive" id="positive-id-select">How do i know the right cources for me?</button>
+                    <p>quisquam iste reiciendis quaerat optio ullam modi ipsa totam necessitatibus itaque rerum assumenda, vel hic nam facere!</p>
+                </div>
+                <div class="discreabe">
+                    <i id="positeve-id" style="float: left;" class="fa-solid fa-plus"></i>
+                    <i id="negative-id" style="float: left;"  class="fa-solid fa-minus"></i>
+                    <button class="btn-positive" id="positive-id-select">How do i know the right cources for me?</button>
+                    <p>quisquam iste reiciendis quaerat optio ullam modi ipsa totam necessitatibus itaque rerum assumenda, vel hic nam facere!</p>
+                </div>
+                <div class="discreabe">
+                    <i id="positeve-id" style="float: left;" class="fa-solid fa-plus"></i>
+                    <i id="negative-id" style="float: left;"  class="fa-solid fa-minus"></i>
+                    <button class="btn-positive" id="positive-id-select">How do i know the right cources for me?</button>
+                    <p>quisquam iste reiciendis quaerat optio ullam modi ipsa totam necessitatibus itaque rerum assumenda, vel hic nam facere!</p>
+                </div>
+                
+            </div>
+        </div>
+    </section>
+
+    <!-- section 4......................................................................-->
+
+    <section class="section-5">
+        <div class="container">
+            <h2 id="h2-id-slider">Frequency Asked Question</h2>
+
+            <div class="slider-main">
+                
+                <div class="slider active" id="slider-0">
+                    <div class="image-slider">
+                        <img src="Sed-18-512.png" alt="not display">
+                    </div>
+                    <h2>user name</h2>
+                    <h4>level</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem mollitia veritatis alias quas laudantium ipsa aut doloribus. Veniam numquam, molestias atque sint voluptatibus quae cupiditate laudantium at odit? Illo, minus?</p>
+                </div>
+                
+                <div class="slider disable" id="slider-1">
+                    <div class="image-slider">
+                        <img src="Sed-18-512.png" alt="not display">
+                    </div>
+                    <h2>user meysam</h2>
+                    <h4>level</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem mollitia veritatis alias quas laudantium ipsa aut doloribus. Veniam numquam, molestias atque sint voluptatibus quae cupiditate laudantium at odit? Illo, minus?</p>
+                </div>
+                <div class="slider disable" id="slider-2">
+                    <div class="image-slider">
+                        <img src="Sed-18-512.png" alt="not display">
+                    </div>
+                    <h2>user hosein</h2>
+                    <h4>level</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem mollitia veritatis alias quas laudantium ipsa aut doloribus. Veniam numquam, molestias atque sint voluptatibus quae cupiditate laudantium at odit? Illo, minus?</p>
+                </div>
+                <div class="slider disable" id="slider-3">
+                    <div class="image-slider">
+                        <img src="Sed-18-512.png" alt="not display">
+                    </div>
+                    <h2>user hasan</h2>
+                    <h4>level</h4>
+                    <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Rem mollitia veritatis alias quas laudantium ipsa aut doloribus. Veniam numquam, molestias atque sint voluptatibus quae cupiditate laudantium at odit? Illo, minus?</p>
+                </div>
+
+                <div class="angle-arrow">
+                    <button onclick="left()" id="left"><i class="fa-solid fa-angle-left"></i></button>
+                    <button onclick="right()" id="right"><i class="fa-solid fa-angle-right"></i></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    
+    <!-- footer......................................................................-->
+    <footer>
+        <div class="main-footer container">
+            <div>
+                <h3>EGATOR</h3>
+                <p>Possimus cupiditate id placeat at, libero nisi optio? Expedita, corporis. Modi.</p>
+            </div>
+            <div>
+                <h3>Permalinks</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Courses</a>
+                <a href="#">Contact</a>
+            </div>
+            <div>
+                <h3>Primacy</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and conditions</a>
+                <a href="#">Refused Policy</a>
+               
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p>+98 234 556 88</p>
+                <p>shakira2260@gmail.com</p>
+                <ul style="display: flex; gap: 1rem;list-style-type: none;color: white;padding-top: 16px;">
+                    <li><a class="fa-brands fa-facebook-square" href="#"></a></li>
+                    <li><a class="fa-brands fa-instagram" href="#"></a></li>
+                    <li><a class="fa-brands fa-twitter" href="#"></a></li>
+                    <li><a class="fa-brands fa-telegram" href="#"></a></li>
+
+                </ul>
+            </div>
+        </div>
+       <br><br><br> <hr style="border:1px solid rgb(116, 116, 116);">
+       <h4 style="text-align: center; color: rgb(187, 187, 187); padding-top: 30px;">Copyright@ EGATOR youtube tutorial</h4>
+       
+    </footer>
+
+
+
+
+    <script src="app.js"></script>
+</body>
+</html>
