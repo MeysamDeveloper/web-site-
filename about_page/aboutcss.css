@@ -1,3 +1,65 @@
 .section-1-about{
     height: 600px;
 }
+.section0-left{
+    text-align: center;
+}
+.section0-left img{
+    width: 350px;
+    height: 350px;
+    text-align: center;
+}
+.section-head{
+    color: white;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 2rem;
+    padding-top: 100px;
+}
+.card-section0{
+    margin-top: 36px;
+    background-color: #41488B;
+    width: 175px;
+    height: auto;
+    border-radius: 5px;
+    box-shadow: 0 0 3px 0 white;
+    text-align: center;
+    padding: 26px 0 40px 0;
+}
+.section0-right p{
+    color: rgb(224, 224, 224);
+    margin-top: 16px;
+    line-height: 22px;
+}
+.card-section0 a i{
+    color: white;
+    padding: 26px;
+    font-size: 54px;
+}
+.card-section-main{
+    display: flex;
+    gap : 2rem;
+}
+@media only screen and (max-width: 1076px){
+    .section-head{
+        display: block;
+        
+    }
+    .card-section-main{
+        width: 600px;
+        margin: auto;
+    }
+    .header-about{
+        height: 1100px;
+    }
+}
+@media only screen and (max-width: 670px){
+    .card-section-main{
+        display: block;
+        width: 175px;
+        margin: auto;
+    }
+    .header-about{
+        height: 1600px;
+    }
+}
