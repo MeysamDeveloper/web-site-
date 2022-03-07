@@ -1,6 +1,4 @@
-.section-1-about{
-    height: 600px;
-}
+
 .section0-left{
     text-align: center;
 }
@@ -61,5 +59,92 @@
     }
     .header-about{
         height: 1600px;
+    }
+}
+/*.....................................section 1........................................*/
+
+.section-1-about{
+    height: 800px;
+    background: #474f97;
+}
+.team-card{
+    color: white;
+    text-align: center;
+    background-color: #41488B;
+    width: 110px;
+    padding: 20px;
+    border-radius: 4px;
+    border: 1px solid #41488B;
+    margin: auto;
+    margin-top: 60px;
+
+
+}
+.team-card:hover{
+    background: #474f97;
+    cursor: pointer;
+    transition: 0.3s;
+
+}
+.img-team{
+width: 100px;
+margin: auto;
+}
+.img-team img{
+    width: 100%;
+}
+.team-card p{
+    color: rgb(231, 231, 231);
+    padding-top: 20px;
+    font-size: 0.9em;
+}
+.team-card h2{
+    padding-top: 4px;
+}
+.social-class{
+    color: white;
+    background-color: violet;
+    border-radius: 1px 10px 15px 1px;
+    width: 30px;
+    position: absolute;
+    margin-left: -20px;
+    margin-top: -20px;
+    display: none;
+    transition: 0.3s;
+}
+.social-class i{
+    color: white;
+}
+.social-class a{
+    display: block;
+    padding: 8px 0px 8px 0px;
+}
+.social-class a:hover{
+    opacity: 50%;
+}
+.social-class2{
+    display: block;
+}
+.team-user-main{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+   
+}
+@media only screen and (max-width: 670px){
+    .card-section-main{
+        display: block;
+        width: 175px;
+        margin: auto;
+    }
+    .header-about{
+        height: 1600px;
+    }
+    .team-user-main{
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+    }
+    .section-1-about{
+        height: 1300px;
+        background: #474f97;
     }
 }
