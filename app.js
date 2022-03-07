@@ -59,3 +59,18 @@ function right() {
     curent_slide.classList.add('active')    
 }
 //......................................................................................
+
+var hover_btn = document.querySelectorAll('#team-card-id')
+var social_var = document.querySelectorAll('#social-id')
+hover_btn.forEach(btn =>{
+    btn.addEventListener('mousemove' , () =>{
+        var child = btn.firstElementChild;
+        child.classList.add('social-class2')
+    })
+})
+hover_btn.forEach(btn =>{
+    btn.addEventListener('mouseout' , () =>{
+        var child = btn.firstElementChild;
+        child.classList.remove('social-class2')
+    })
+})
