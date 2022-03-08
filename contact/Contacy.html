@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web site</title>
+    <link rel="stylesheet" href="../style.css">
+    <link rel="stylesheet" href="contact_style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+
+    <!-- google font.............................................................................-->
+</head>
+<body>
+    <header class="header-about">
+        <nav> 
+            <div class="container">
+                <div class="header-main-div-class">
+                    <a class="h4-class-header" href="#"><h4>EGATOR</h4></a>
+                    <ul class="ul-class" id="ul-id">
+                        <div class="nav-class" id="nav-id">
+                            <li id="li-id-header"><a href="../indeX.html">Home</a></li>
+                            <li id="li-id-header"><a href="../about_page/about.html">About</a></li>
+                            <li id="li-id-header"><a href="#">Courses</a></li>
+                            <li id="li-id-header"><a href="Contacy.html">Contact</a></li>
+                        </div>
+                    
+                        <div class="button-toggle-header">
+                            <button onclick="barFunction()"id="bar-btn" class="btn-bar-class"><i class="fa-solid fa-bars"></i></button>
+                            <button onclick="closeBarFunction()" id="close-bar-btn"class="btn-bar-class-close"><i class="fa-solid fa-xmark"></i></button>
+                        </div>
+                    </ul>
+                </div>
+                
+            </div>
+        </nav>
+        <div class="container main-form">
+            <div class="form-back" >
+                <form  action="https://formspree.io/f/mbjwywjn" method="POST">
+                    <div  style="width: 600px; background: rgb(47, 61, 126);padding: 25px; margin: auto;" class="form-main">
+                        <div>
+                            <input style="padding: 12px;background-color: rgb(58, 58, 58);color: white; " name="first name" type="text" placeholder=" First name" required>
+                            <input style="padding: 12px;background-color: rgb(58, 58, 58);color: white;" name="last name" type="text" placeholder=" Last name" required>
+                        </div>
+                       
+                        <input style="display: block; padding: 12px;background-color: rgb(58, 58, 58);color: white; margin: 12px 0 12px 0; " type="email" placeholder=" input email" name="email" required>
+                        <textarea style="background-color: rgb(58, 58, 58);color: white;width: 100%;"  name="textarea" id="idtext" cols="22" rows="10"></textarea>
+                        <div>
+                            <button style="padding: 16px;color: rgb(255, 255, 255);background-color: tomato;" type="submit">Send message</button>
+    
+                        </div>
+                    </div>
+                   
+                </form>
+            </div>
+        </div>
+    </header>
+
+<!-- section 1......................................................................-->
+    
+    
+
+
+
+
+<!-- footer......................................................................-->
+    <footer>
+        <div class="main-footer container">
+            <div>
+                <h3>EGATOR</h3>
+                <p>Possimus cupiditate id placeat at, libero nisi optio? Expedita, corporis. Modi.</p>
+            </div>
+            <div>
+                <h3>Permalinks</h3>
+                <a href="#">Home</a>
+                <a href="#">About</a>
+                <a href="#">Courses</a>
+                <a href="#">Contact</a>
+            </div>
+            <div>
+                <h3>Primacy</h3>
+                <a href="#">Privacy Policy</a>
+                <a href="#">Terms and conditions</a>
+                <a href="#">Refused Policy</a>
+               
+            </div>
+            <div>
+                <h3>Contact Us</h3>
+                <p>+98 234 556 88</p>
+                <p>shakira2260@gmail.com</p>
+                <ul style="display: flex; gap: 1rem;list-style-type: none;color: white;padding-top: 16px;">
+                    <li><a class="fa-brands fa-facebook-square" href="#"></a></li>
+                    <li><a class="fa-brands fa-instagram" href="#"></a></li>
+                    <li><a class="fa-brands fa-twitter" href="#"></a></li>
+                    <li><a class="fa-brands fa-telegram" href="#"></a></li>
+
+                </ul>
+            </div>
+        </div>
+       <br><br><br> <hr style="border:1px solid rgb(116, 116, 116);">
+       <h4 style="text-align: center; color: rgb(187, 187, 187); padding-top: 30px;">Copyright@ EGATOR youtube tutorial</h4>
+       
+    </footer>
+
+    <script src="../app.js"></script>
+</body>
+</html>
